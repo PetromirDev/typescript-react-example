@@ -1,4 +1,4 @@
-import { SampleUser } from '../../examples/basicTypes'
+import { SampleUser } from '../../examples/user'
 import { greetTyped } from '../../examples/typedFunctions'
 // Components
 import Info from './Info/Info'
