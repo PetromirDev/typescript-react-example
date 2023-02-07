@@ -1,0 +1,14 @@
+.wrapper {
+  display: flex;
+  gap: 50px;
+  margin-bottom: 40px;
+}
+
+.item {
+  text-align: center;
+}
+
+.label {
+  margin-bottom: 10px;
+  font-size: 18px;
+}

@@ -1,0 +1,13 @@
+.wrapper {
+  margin-bottom: 20px;
+}
+
+.username {
+  margin-bottom: 20px;
+  text-align: center;
+  color: rgb(119, 155, 255);
+}
+.avatar {
+  max-width: 300px;
+  border-radius: 12px;
+}
