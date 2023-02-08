@@ -1,14 +1,14 @@
 import styles from './Info.module.css'
 
 type PropsType = {
-	username: string
+	username?: string
 	photoUrl: string
 }
 
 export default function Info({ username, photoUrl }: PropsType) {
 	return (
 		<div className={styles.wrapper}>
-			<h2 className={styles.username}>@{username}</h2>
+			<h2 className={styles.username}>{username ? `@${username}` : 'Anonymous User'}</h2>
 			<img className={styles.avatar} src={photoUrl} alt="user avatar" />
 		</div>
 	)
